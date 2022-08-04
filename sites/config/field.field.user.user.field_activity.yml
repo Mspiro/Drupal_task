@@ -1,0 +1,30 @@
+uuid: 36f3afef-1121-40ef-80ab-baedfcf1d43b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_activity
+    - taxonomy.vocabulary.activity
+  module:
+    - user
+id: user.user.field_activity
+field_name: field_activity
+entity_type: user
+bundle: user
+label: Activity
+description: 'Select your Activity'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      activity: activity
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

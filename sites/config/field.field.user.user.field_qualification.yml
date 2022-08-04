@@ -1,0 +1,30 @@
+uuid: c4ac72f9-f4ef-4e71-adfc-e293fbecefd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_qualification
+    - taxonomy.vocabulary.qualification
+  module:
+    - user
+id: user.user.field_qualification
+field_name: field_qualification
+entity_type: user
+bundle: user
+label: Qualification
+description: 'Select your qualification.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      qualification: qualification
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

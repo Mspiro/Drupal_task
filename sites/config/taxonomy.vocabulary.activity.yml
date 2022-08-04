@@ -1,0 +1,8 @@
+uuid: 2ff232ef-81f2-46b5-bfb0-255bb8dfc6eb
+langcode: en
+status: true
+dependencies: {  }
+name: Activity
+vid: activity
+description: Activity
+weight: 0

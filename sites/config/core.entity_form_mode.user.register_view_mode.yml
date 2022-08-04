@@ -1,0 +1,10 @@
+uuid: 43d92f2a-dd79-4abd-a6a1-6aebe973d348
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.register_view_mode
+label: 'Register View Mode'
+targetEntityType: user
+cache: true

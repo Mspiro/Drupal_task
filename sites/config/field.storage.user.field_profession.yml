@@ -1,0 +1,20 @@
+uuid: 769c2f7f-e496-4197-a4aa-b006d13fd45c
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - user
+id: user.field_profession
+field_name: field_profession
+entity_type: user
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

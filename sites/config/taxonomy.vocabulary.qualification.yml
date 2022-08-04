@@ -1,0 +1,8 @@
+uuid: 8c0a359e-a849-4a0b-b6cc-482adcc89a84
+langcode: en
+status: true
+dependencies: {  }
+name: Qualification
+vid: qualification
+description: 'User qualification'
+weight: 0

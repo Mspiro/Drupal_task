@@ -1,0 +1,4 @@
+name: drupal_task
+recipe: drupal9
+config:
+  webroot: .

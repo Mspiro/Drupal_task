@@ -1,0 +1,10 @@
+name: 'Deprecated configuration schema test'
+type: module
+package: Testing
+# version: VERSION
+hidden: true
+
+# Information added by Drupal.org packaging script on 2022-07-26
+version: '9.4.x-dev'
+project: 'drupal'
+datestamp: 1658857047
